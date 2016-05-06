@@ -1,0 +1,22 @@
+{
+  "name": "audiobook_to_podcast_gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "server": "http-server",
+    "generate": "node buildPodcast.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "podcast": "^0.2.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "ambientDependencies": {
+    "node": "registry:dt/node#4.0.0+20160423143914",
+    "podcast": "registry:dt/podcast#0.0.0+20160316155526"
+  }
+}
