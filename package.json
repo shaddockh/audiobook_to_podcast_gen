@@ -15,6 +15,7 @@
     "podcast": "^0.2.2"
   },
   "devDependencies": {
+    "@types/node": "^7.0.13",
     "http-server": "^0.9.0",
     "typescript": "^1.8.10",
     "typings": "^0.8.1"

@@ -14,7 +14,11 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "allowJs":true
+        "allowJs": true,
+        "sourceMap": true,
+        "lib": [
+            "es6"
+        ]
     },
     "exclude": [
         "node_modules",
@@ -22,8 +26,5 @@
         "typings/browser.d.ts"
     ],
     "compileOnSave": true,
-    "buildOnSave": false,
-    "atom": {
-        "rewriteTsconfig": false
-    }
+    "buildOnSave": false
 }
